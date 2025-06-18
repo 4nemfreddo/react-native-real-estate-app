@@ -10,6 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Text className="font-bold text-2xl my-14">
+        Welcome to the Expo Router Example! </Text>
       <Link href="/sign-in">Sign In</Link>
       <Link href="/(root)/(tabs)/explore">Explore</Link>
       <Link href="/(root)/(tabs)/profile">Profile</Link>
